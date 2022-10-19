@@ -35,18 +35,39 @@ nav {
   font-size: 20px;
 }
 
+
 li {
   display: inline-block;
   margin-left: 25px;
+  margin-top: 30px;
+  text-decoration: #000000 4px solid;
 }
 
 a {
   font-size: 25px;
   color: #ffffff;
   text-decoration: none;
+  
 }
 
 section {
   display: flex;
+
+}
+
+h2 {
+  font-size: 40px;
+  margin: 30px;
+  border-right: #000000 5px solid;
+  margin-right: 20px;
+  padding-right: 40px;
+
+}
+
+p {
+  font-size: 18px;
+  margin: 40px;
+  padding: 20px;
+  ;
 
 }
