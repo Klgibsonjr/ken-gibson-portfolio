@@ -19,13 +19,14 @@ header {
 
 h1 {
   display: inline-block;
-  font-size: 48px;
+  font-size: 50px;
 }
 
 span {
   color: #000000;
   text-shadow: 2px 2px #8e8e8e;
 }
+
 
 nav {
   padding-top: 15px;
@@ -40,6 +41,12 @@ li {
 }
 
 a {
+  font-size: 25px;
   color: #ffffff;
   text-decoration: none;
+}
+
+section {
+  display: flex;
+
 }
