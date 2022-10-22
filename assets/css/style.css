@@ -15,7 +15,7 @@ body {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: #d20101b7;
+  background-color: #3b3535b7;
 }
 
 .name {
@@ -52,6 +52,20 @@ span {
   align-items: center;
 }
 
+.subtitle {  
+  background-image: url(/assets/Images/coding-img-red.jpg);
+  width: 100%;
+  height: 100px;
+}
+
+.subtitle-heading {  
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: right;
+  margin-right: 30px;
+  padding-top: 50px;
+}
+  
 a {
   font-size: 25px;
   color: #ffffff;
@@ -70,7 +84,7 @@ a:active {
   color: #5c0101;
 }
 
-
+.
 
 /* section {
   display: flex;
