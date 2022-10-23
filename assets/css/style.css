@@ -5,6 +5,8 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: "Trebuchet MS", Verdana, "Gill Sans MT", sans-serif;
   background-color: #8e8e8e;
   color: #ffffff;
@@ -25,7 +27,7 @@ body {
 
 span {
   color: #000000;
-  text-shadow: 2px 2px #8e8e8e;
+  text-shadow: 2px 2px #a12929;
 }
 
 .navbar {
@@ -33,47 +35,81 @@ span {
   padding-top: 15px;
   margin-right: 20px;
   font-size: 20px;
-  align-items: flex-end;
-
 }
 
 .navbar-list {
   display: flex;
-  flex-direction: row;
   padding: 0;
   margin: 0;
   list-style: none;
   justify-content: end;
-
 }
 
 .navbar-list-item {
   margin-left: 25px;
-  align-items: center;
 }
 
-.subtitle {  
+.subtitle {
   background-image: url(/assets/Images/coding-img-red.jpg);
   width: 100%;
   height: 100px;
 }
 
-.subtitle-heading {  
-  font-size: 30px;
+.subtitle-heading {
+  font-size: 35px;
   font-weight: bolder;
   text-align: right;
   margin-right: 30px;
   padding-top: 50px;
 }
-  
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.about-me-heading {
+  /* align-self: right; */
+  font-size: 50px;
+  font-weight: bolder;
+  margin-right: 60px;
+}
+
+.projects-heading {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 250px;
+}
+
+.contact-me-heading {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 300px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.main {
+  display: flex;
+  height: 100%;
+  margin: 20px;
+}
+
+.phone {
+  font-size: 25px;
+}
+
 a {
   font-size: 25px;
   color: #ffffff;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 a:hover {
-  color: #8e8e8e
+  color: #8e8e8e;
 }
 
 a:visited {
@@ -84,26 +120,22 @@ a:active {
   color: #5c0101;
 }
 
-.
-
-/* section {
+ul {
   display: flex;
-
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: stretch;
+  margin-top: 50px;
 }
 
-h2 {
-  font-size: 40px;
+.projects {
+  display: flex;
+  justify-content: center;
   margin: 30px;
-  border-right: #000000 5px solid;
-  margin-right: 20px;
-  padding-right: 40px;
-
 }
 
-p {
-  font-size: 18px;
-  margin: 40px;
-  padding: 20px;
-  ;
-
-} */
+.main-project {
+  width: 500px;
+  height: 500px;
+  align-items: center;
+}
