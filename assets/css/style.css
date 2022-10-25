@@ -134,6 +134,12 @@ ul {
   margin-top: 120px;
 }
 
+#about-me-desc {
+  font-size: 30px;
+  margin: 1%;
+  padding: 1%;
+}
+
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -147,6 +153,12 @@ ul {
   align-items: center;
   flex-basis: 100%;
   margin: 2%;
+}
+
+.main-project:hover {
+  cursor: pointer;
+  border: #5c0101 solid 5px;
+  border-radius: 10px;
 }
 
 .break {
