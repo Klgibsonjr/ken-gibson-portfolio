@@ -63,9 +63,10 @@ span {
   padding-top: 50px;
 }
 
-.aside {
+.aside-heading {
   display: flex;
   flex-direction: column;
+  width: 20%;
   height: 100%;
   margin-right: 20px;
   padding: 20px;
@@ -73,22 +74,22 @@ span {
 
 .about-me-heading {
   /* align-self: right; */
-  font-size: 50px;
+  font-size: 70px;
   font-weight: bolder;
   margin-right: 60px;
 }
 
 .projects-heading {
-  font-size: 50px;
+  font-size: 70px;
   font-weight: bolder;
   margin-top: 250px;
 }
 
 .contact-me-heading {
-  font-size: 50px;
+  font-size: 70px;
   font-weight: bolder;
-  margin-top: 300px;
-  margin-right: 100px;
+  margin-top: 600px;
+  margin-right: 20px;
   margin-bottom: 50px;
 }
 
@@ -96,6 +97,10 @@ span {
   display: flex;
   height: 100%;
   margin: 20px;
+}
+
+.content {
+  width: 80%;
 }
 
 .phone {
