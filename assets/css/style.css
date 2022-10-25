@@ -130,12 +130,27 @@ ul {
 
 .projects {
   display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
   justify-content: center;
   margin: 30px;
 }
 
 .main-project {
-  width: 500px;
+  width: 600px;
   height: 500px;
   align-items: center;
+  flex-basis: 100%;
+  margin: 20px;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.side-project {
+  width: 400px;
+  height: 400px;
+  margin: 20px;
 }
