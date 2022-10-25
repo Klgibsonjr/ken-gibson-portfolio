@@ -137,17 +137,16 @@ ul {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column; */
   justify-content: center;
-  margin: 30px;
+  margin: 2%;
 }
 
 .main-project {
-  width: 600px;
-  height: 500px;
+  width: 100%;
+  height: 75%;
   align-items: center;
   flex-basis: 100%;
-  margin: 20px;
+  margin: 2%;
 }
 
 .break {
@@ -156,7 +155,7 @@ ul {
 }
 
 .side-project {
-  width: 400px;
-  height: 400px;
-  margin: 20px;
+  width: 20%;
+  /* height: 5%; */
+  margin: 2%;
 }
