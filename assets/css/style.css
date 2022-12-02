@@ -7,7 +7,7 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: "Trebuchet MS", Verdana, "Gill Sans MT", sans-serif;
+  font-family: 'Trebuchet MS', Verdana, 'Gill Sans MT', sans-serif;
   background-color: #8e8e8e;
   color: #ffffff;
 }
@@ -15,8 +15,8 @@ body {
 .header {
   display: flex;
   padding: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   background-color: #3b3535b7;
 }
 
@@ -142,14 +142,13 @@ ul {
 
 .projects {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   margin: 2%;
+  padding: 2%;
 }
 
 .main-project {
   width: 100%;
-  height: 75%;
   align-items: center;
   flex-basis: 100%;
   margin: 2%;
@@ -167,7 +166,14 @@ ul {
 }
 
 .side-project {
-  width: 20%;
-  /* height: 5%; */
+  width: 100%;
   margin: 2%;
+}
+
+#anchor1 {
+  width: 100%;
+}
+
+#anchor2 {
+  width: 100%;
 }
